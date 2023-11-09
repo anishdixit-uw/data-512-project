@@ -1,7 +1,6 @@
 # Goal of the Project
 
-In this project, I explore the concept of bias in data using Wikipedia articles. I try to acquire data relating to Wikipedia article searches for some cities/towns across the US and what the quality of the Wikipedia articles for these cities is. I also try to analyze some important metrics corresponding to the predicted quality, such as the states with best per capita coverage of articles. The aim is to understand the statewise trends in article coverage/presence of high quality articles.
-
+In this project, I analyze wildfire impacts on a specific city in the US. The end goal is to be able to inform policy makers, city managers, city councils, or other civic institutions, to make an informed plan for how they could or whether they should make plans to mitigate future impacts from wildfires. I try to acquire data relating to wildfires aronud the US, and also some air quality historical data. We create a smoke estimate for the city of North Platte, Nebraska, and gauge how close it is to the actual AQI. We aclso visualize some parameters of the fire and gain insishgts into the frequency of fire occurrences, area burnt by fires and such. Finally, we create a forecasting model to predict smoke estimates for the next 25 years using time series analysis.
 # Source Data
 
 1. Combined wildland fire datasets for the United States and certain territories, 1800s-Present (combined wildland fire polygons)
