@@ -116,11 +116,11 @@ Cancer cases dataset has been manually curated and the accuracy of the public he
     
 7. Python Notebook to call EPI Air Quality History Data: [https://drive.google.com/file/d/17C9xsmR9U3lJeD52UTbAedlHDetwYsxs/view?usp=sharing](https://drive.google.com/file/d/1bxl9qrb_52RocKNGfbZ5znHVqFDMkUzf/view)
    
-8. Nebraska Public Health Reports: [https://dhhs.ne.gov/Pages/Public-Health-Reports.aspx]
+8. Nebraska Public Health Reports: https://dhhs.ne.gov/Pages/Public-Health-Reports.aspx
    
-9. Nebraska Revenue Department Statistics: [https://revenue.nebraska.gov/research/statistics/local-government-data]
+9. Nebraska Revenue Department Statistics: https://revenue.nebraska.gov/research/statistics/local-government-data
     
-10. EPA Research Study on Wildfire Effects on Health: [https://www.epa.gov/air-research/wildland-fire-research-health-effects-research]
+10. EPA Research Study on Wildfire Effects on Health: https://www.epa.gov/air-research/wildland-fire-research-health-effects-research
 
 
 # Methodology
