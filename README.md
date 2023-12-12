@@ -15,7 +15,7 @@ https://docs.google.com/spreadsheets/d/1cmTW5fgU3KyH6JbrRao-qWjzu2GovKk_BkA7a-po
 3. Cancer Cases in Nebraska Report (2006)
 https://dhhs.ne.gov/Reports/Cancer%20Incidence%20and%20Mortality%20in%20Nebraska%20-%202006.pdf
 
-4. Cancer Cases in Nebraska Report (20013)
+4. Cancer Cases in Nebraska Report (2013)
 https://dhhs.ne.gov/Reports/Cancer%20Incidence%20and%20Mortality%20in%20Nebraska%202013.pdf
 
 6. Cancer Cases in Nebraska Report (2019)
@@ -97,6 +97,10 @@ https://revenue.nebraska.gov/sites/revenue.nebraska.gov/files/doc/MUN_1_Cert_Pop
 The GeoJSON dataset is massive and has around 136000 fire occurrences that need to be analyzed. It takes a long time to load the data, hence the data acquisition process needs good error handling. The features of each fire are not consistent. Some fires do not have the 'ring' parameter and instead have 'curved ring' which needs to be handled and dealt with separately. There is no data for years 2021, 2022 and 2023. 
 
 AQI data is also messy. Because each weather station has different years of operation, the data needs to be amalgamated across 3 different stations. This also needs exception handling becasue the aqi parameter is often missing. My city locations simply had no data for gaseous pollutants, only particulate pollutants, so this case also needs to be handled separately.
+
+We also have not considered fire season in either our wildfire or AQI data. The USA fire season runs from May to October, but because we do not have good month level data, we do not consider this, which is an oversight.
+
+Cancer cases dataset has been manually curated and the accuracy of the public health reports, if questionable, can put the efficacy of the analysis into doubt.
 
 # Helpful Documentation
 
